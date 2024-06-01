@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFEC9E;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    /* background-color: #4682b4; */
+    background-color: #ED9455;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    /* position: sticky; */
+    justify-content: space-between;
+    align-items: center;
+}
+hr {
+    border : 1px solid white;
+}
+header .judulna p {
+    line-height :0px;
+    font-size:22px;
+}
+.logo {
+    width: 80px;
+    height: auto;
+    margin-left: 20px;
+}
+.subheader {
+    background-color: #FFBB70;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.container {
+    padding: 20px;
+}
+.definition {
+    margin: 20px 0;
+    background-color: #FFFBDA;
+    padding: 15px;
+    border-radius: 5px;
+    /* border: 1px solid #b0e0e6; */
+    text-align: center;
+}
+.definition h2 {
+    color: #ED9455;
+    font-size: 22px;
+}
+.definition p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.definition img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+.product {
+    border: 1px solid #FFFBDA;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FFFBDA;
+}
+.product img {
+    max-width: 50%;
+    border-radius: 5px;
+    display: block;
+    margin-left : auto;
+    margin-right : auto;
+}
+.product h2 {
+    color: #ED9455;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.product p {
+    color: #666;
+    font-size: 16px;
+}
+.product ul {
+    padding-left: 20px;
+}
+.review {
+    margin-top: 20px;
+}
+.review h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #4682b4;
+}
+.review textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.review button {
+    padding: 10px 20px;
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.reviews-list {
+    margin-top: 20px;
+}
+.review-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.decoration {
+    text-align: center;
+    margin-top: 20px;
+}
+.decoration img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
